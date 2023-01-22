@@ -1,0 +1,17 @@
+android_app_import {
+	name: "OnePlusCamera",
+	owner: "oneplus",
+	apk: "OnePlusCamera.apk",
+	presigned: true,
+	privileged: false,
+	product_specific: true,
+	overrides: ["Camera2", "GCamGOPrebuilt", "GCamGOPrebuilt-V2", "Snap", "Aperture"],
+}
+android_app_import {
+	name: "OnePlusCameraService",
+	owner: "oneplus",
+	apk: "OnePlusCameraService.apk",
+	presigned: true,
+	privileged: true,
+	product_specific: true,
+}
